@@ -1,0 +1,51 @@
+body {
+  background: url(images/background.jpg) center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* title */
+#header {
+  text-align: center;
+  font-size: 7vw;
+}
+
+/* lap */
+#lap {
+  text-align: right;
+  font-size: 4vw;
+}
+
+/* time */
+#time {
+  text-align: center;
+  font-size: 10vw;
+}
+
+/* Buttons */
+#controlsContainer {
+  margin-bottom: 100px;
+}
+
+.control {
+  color: white;
+  font-size: 2.5vw;
+  background-color: #d7a04e;
+  height: 10vw;
+  width: 10vw;
+  padding: 20% 0;
+  text-align: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.control:active {
+  color: #d7a04e;
+  background-color: white;
+}
+
+/* Laps */
+#laps {
+  max-height: 270px;
+  overflow-y: scroll;
+}

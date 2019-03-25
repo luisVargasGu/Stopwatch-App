@@ -18,7 +18,49 @@
     <title>Stopwatch app</title>
   </head>
   <body>
-    
+    <!-- title -->
+    <div class="container-fluid">
+      <div id="header">
+        Stopwatch
+      </div>
+
+      <!-- lap time -->
+      <div id="lap">
+        <span id="lapminute">00</span>: <span id="lapsecond">00</span>:
+        <span id="lapcentisecond">00</span>
+      </div>
+      <!-- time -->
+      <div id="time">
+        <span id="timeminute">00</span>: <span id="timesecond">00</span>:
+        <span id="timecentisecond">00</span>
+      </div>
+      <!-- controls -->
+      <div class="row" id="controlsContainer">
+        <div class="col-xs-2 col-xs-offset-4">
+          <div class="control" id="startButton">
+            Start
+          </div>
+          <div class="control" id="stopButton">
+            Stop
+          </div>
+          <div class="control" id="resumeButton">
+            Resume
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="control" id="lapButton">
+            Lap
+          </div>
+          <div class="control" id="resetButton">
+            Reset
+          </div>
+        </div>
+      </div>
+      <!-- laps -->
+      <div id="laps">
+
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Bootstrap JS -->
     <script
@@ -26,6 +68,7 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
+    <script src="javascript.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
